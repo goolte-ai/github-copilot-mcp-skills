@@ -18,3 +18,23 @@ text
 That's it! Copy → paste → npm i = instant production DevOps orchestration for Zensar workflows. No downloads needed.
 
 Ready to test? Open VS Code Copilot Chat → /jira-cli TEST-123 🚀
+
+
+copilot-complete-package/
+├── README.md
+├── .vscode/
+│   ├── mcp.json
+│   └── settings.json
+├── package.json
+├── .env.example
+└── .github/
+    ├── skills/
+    │   ├── jira-cli/
+    │   │   ├── SKILL.md
+    │   │   └── scripts/jira-lookup.js
+    │   ├── splunk-debug/
+    │   │   └── SKILL.md
+    │   └── incident-orchestrator/
+    │       └── SKILL.md
+    └── agents/
+        └── incident-analyst.agent.md  ← NEW: Cloud model docs
