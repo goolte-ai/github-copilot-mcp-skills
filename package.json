@@ -1,0 +1,8 @@
+{
+  "name": "copilot-skills-jira-splunk",
+  "version": "1.0.0",
+  "description": "Jira + Splunk MCP orchestration for GitHub Copilot",
+  "devDependencies": {
+    "jira-client": "^8.0.4"
+  }
+}
